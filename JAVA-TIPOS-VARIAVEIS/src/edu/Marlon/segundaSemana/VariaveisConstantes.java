@@ -14,7 +14,7 @@ public class VariaveisConstantes {
                  */
                 numero = 10;
         
-                System.out.print(numero);
+                System.out.println(numero);
                 
                 /*
                  * ao usar a palavra reservada final, você determina que jamais
@@ -24,6 +24,7 @@ public class VariaveisConstantes {
                  */
                 final double VALOR_DE_PI = 3.14;
                 
-                VALOR_DE_PI=3.15; //Esta linha vai apresentar erro de compilação!
+                // VALOR_DE_PI=3.15; //Esta linha vai apresentar erro de compilação!
+                System.out.println(VALOR_DE_PI);
             }
         }
