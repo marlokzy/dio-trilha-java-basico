@@ -18,6 +18,12 @@ public class Operadores3 {
         System.out.println(numero); // decrementou. Dará 7
 
         System.out.println(--numero); // Já aqui decrementou e mandou imprimir o novo valor. Dará 6
+
+        // e se eu quiser que imprima o valor oposto de algo? adiciono o operador de negação (!)
+        boolean variavel = true;
+        variavel = !variavel; // transformou variavel em false
+
+        System.out.println(variavel); // Dará false 
     }
     
 }
