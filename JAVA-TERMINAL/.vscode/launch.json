@@ -4,20 +4,25 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "AboutMe2",
+            "request": "launch",
+            "mainClass": "AboutMe2",
+            "projectName": "JAVA-TERMINAL_36ab47fe"
+        },
         {
             "type": "java",
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
             "projectName": "JAVA-TERMINAL_36ab47fe",
-            "args":[
+            "args": [
                 "Marlon",
                 "Rodrigues",
                 "20",
                 "1.79"
             ]
-        },
+        }
     ]
 }
