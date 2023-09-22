@@ -1,0 +1,15 @@
+public class ResultadoEscolar3 {
+    public static void main(String[] args) {
+        // cenário 1
+        int nota = 7;
+        String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+        System.out.println(resultado);
+
+        // cenário 2
+        // public static void main(String[] args) {
+        // int nota = 7;
+        // String resultado = nota >=7 ? "Aprovado" : "Reprovado";
+        // System.out.println(resultado);
+        // }
+    }
+}
