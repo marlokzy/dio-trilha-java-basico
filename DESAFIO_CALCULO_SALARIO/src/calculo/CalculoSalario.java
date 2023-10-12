@@ -24,7 +24,7 @@ public class CalculoSalario {
 	            imposto = valorSalario * 0.15F;//15.00% sobre o salario
 	        }
 	        
-	       // Saída
+	       // Saída (Calcula e imprime a saída com 2 casas decimais)
 	        float valorFinal = (valorSalario - imposto) + valorBeneficios; 
 	        System.out.println(String.format("O valor a ser transferido para o funcionário é de R$ %.2f", valorFinal));
 	   }
