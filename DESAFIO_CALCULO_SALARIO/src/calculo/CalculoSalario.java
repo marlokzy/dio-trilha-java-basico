@@ -26,6 +26,6 @@ public class CalculoSalario {
 	        
 	       // Saída
 	        float valorFinal = (valorSalario - imposto) + valorBeneficios; 
-	        System.out.println("O valor a ser transferido para o funcionário é de R$ "+ valorFinal);
+	        System.out.println(String.format("O valor a ser transferido para o funcionário é de R$ %.2f", valorFinal));
 	   }
 }
